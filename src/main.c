@@ -134,7 +134,6 @@ int main(int argc, char *argv[]) {
                 break;
             }
 
-            // Локальный вывод результата
             float result = arr[0];
             for (int i = 1; i < count; i++) result /= arr[i];
 
